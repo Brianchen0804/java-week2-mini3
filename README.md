@@ -16,12 +16,14 @@ A、B、C 為 0 至 99 的整數，且相鄰 token 之間需要留空白。
 int result = 65 + 66 + 67 ;
 
 實際輸出：
+```text
 MOVI R1, 65
 MOVI R2, 66
 ADD R0, R1, R2
 MOVI R2, 67
 ADD R0, R0, R2
 STORE [0], R0
+```
 
 最後運算結果為 198，並存入 M[0]。
 
